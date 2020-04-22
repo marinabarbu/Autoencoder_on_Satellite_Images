@@ -21,5 +21,5 @@ print('Patches len: {}'.format(len(patches)))
 
 for i in range(len(patches)):
     data = asarray(patches[i])
-    savez_compressed('/patches/patch'+str(i)+'.npz', data)
+    savez_compressed('patch'+str(i)+'.npz', data)
 
